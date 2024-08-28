@@ -1,31 +1,36 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.root{
+/* Variables */
+/* Font Sizes */
+  .heading{
+    font-family: 'cabin', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .paragraphs{
+    font-family: 'cabin', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+
+  --secondary-color:#61CE70;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.App {
+  text-align: center;
+  margin:0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

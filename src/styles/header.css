@@ -1,0 +1,58 @@
+.header-container{
+  width: 100vw;
+  position: fixed;
+  background-color: #373a40;
+  top :0;
+  z-index:10;
+
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  font-family: "cabin", sans-serif;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  font-family: 'cabin', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: white ;
+  text-decoration: underline;
+}
+
+
