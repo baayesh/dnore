@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../components/Home/Hero';
+import Services from '../components/Home/Services';
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import '../styles/home.css';
@@ -18,6 +19,8 @@ const Home = () => {
       </div>
     </div>
     <Hero />
+    <Services />
+
    
   </div>
   )

@@ -155,3 +155,51 @@
   left: 6.8em;
   color: white;
 }
+
+.services-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 4em auto;
+  max-width: 1440px;
+}
+
+.individual-service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  margin-right: 1em;
+  background-color: rgba(55, 58, 64, 0.1);
+  border-radius: 2em;
+  border: 10px #373a40;
+  border-width: 10px;
+}
+
+.service-icon {
+  background-color: #006600;
+  border-radius: 4em;
+  height: 4em;
+  width: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-title {
+  text-align: center;
+}
+
+.service-title h4 {
+  margin-bottom: 0;
+  font-family: "cabin", sans-serif;
+  font-size: 1.2rem;
+}
+
+
+.service-description p {
+  margin-top: 0.3em;
+  font-family: "cabin", sans-serif;
+  color: #707070;
+}
