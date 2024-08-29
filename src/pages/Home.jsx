@@ -7,6 +7,8 @@ import { FaPhone } from "react-icons/fa6";
 import '../styles/home.css';
 import Counter from '../components/Home/Counter';
 import USP from '../components/Home/USP';
+import Partners from '../components/Home/Partners';
+
 
 
 const Home = () => {
@@ -27,6 +29,7 @@ const Home = () => {
     <About />
     <Counter/>
     <USP/>
+    <Partners/>
 
 
    

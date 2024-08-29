@@ -401,3 +401,37 @@
 .z__1{
   z-index: 1;
 }
+
+/* Partners */
+.partners__container {
+  gap: 5em;
+  margin: 4em auto;
+}
+
+.partners__right {
+  flex: 3;
+  margin-top: 2em;
+  align-items: flex-start;
+}
+.partners__right__container {
+  align-items: flex-start;
+}
+
+.partners__right img {
+  margin-right: 4em;
+}
+
+.partners__left {
+  flex: 1;
+  margin-top: 2em;
+}
+
+.partners__left h4 {
+  text-align: left;
+  margin-bottom: 0em;
+}
+
+.partners__left p {
+  text-align: left;
+}
+
