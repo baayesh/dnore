@@ -435,3 +435,141 @@
   text-align: left;
 }
 
+/* Testimonials-Section 8 */
+.testimaonials-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 3em auto;
+}
+
+.testimonials-heading {
+  text-align: left;
+}
+
+.testimonials-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+
+/* Testimonaials - Card 1 */
+.testimonials-card-1 {
+  padding: 2em;
+}
+
+.testimonials-card-1-heading {
+  text-align: left;
+}
+
+.testimonials-card-1-content {
+  text-align: left;
+}
+
+.testimonials-card-1-content p {
+  margin-top: 1.9em;
+}
+
+.testimonials-card-1-buttons {
+  display: flex;
+  text-align: left;
+  padding: 0em 2em 2em 0em;
+  gap: 0.4em;
+}
+
+.testimonials-card-1-buttons button {
+  padding: 0.9em;
+  border-width: 0px;
+}
+
+.testimonials-button-1 {
+  background-color: #006600;
+}
+
+.testimonials-button-2 {
+  background-color: #006600;
+}
+
+.testimonials-arrow {
+  color: #f2f2f2;
+  width: 2em;
+}
+
+/* Testiminials - Card 2 */
+.testimonials-card-2 {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.testimonials-card-2-content {
+}
+
+.testimonials-card-2-party {
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .testimonials-card-2-party-img {
+  width: 70px;
+  height: 70px;
+}
+
+.testimonials-card-2-party-img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+} */
+
+.testimonials-card-2-party-content {
+  text-align: left;
+}
+
+/* Testiminials - Card 3 */
+.testimonials-card-3 {
+  background-color: #373a40;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.testimonials-card-3-content {
+}
+
+.testimonials-card-3-party {
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-card-3-party-img {
+  width: 70px;
+  height: 70px;
+}
+
+.testimonials-card-3-party-img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+}
+
+.testimonials-card-3-party-content {
+  text-align: left;
+}
+
+/* Z-indexes of all components
+    header - 10
+
+*/
+
+
+

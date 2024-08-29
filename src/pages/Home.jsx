@@ -8,6 +8,8 @@ import '../styles/home.css';
 import Counter from '../components/Home/Counter';
 import USP from '../components/Home/USP';
 import Partners from '../components/Home/Partners';
+import Testimonials from '../components/Home/Testimonials';
+import Footer from '../common/footer'
 
 
 
@@ -30,6 +32,8 @@ const Home = () => {
     <Counter/>
     <USP/>
     <Partners/>
+    <Testimonials/>
+    <Footer/>
 
 
    
