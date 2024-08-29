@@ -1,9 +1,11 @@
 import React from 'react';
 import Hero from '../components/Home/Hero';
 import Services from '../components/Home/Services';
+import About from '../components/Home/about';
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import '../styles/home.css';
+
 
 const Home = () => {
   return (
@@ -20,6 +22,7 @@ const Home = () => {
     </div>
     <Hero />
     <Services />
+    <About />
 
    
   </div>

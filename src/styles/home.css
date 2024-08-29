@@ -203,3 +203,62 @@
   font-family: "cabin", sans-serif;
   color: #707070;
 }
+
+.about-container {
+  background-color: #373a40;
+  padding: 0em 0em;
+  color: #f2f2f2;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+
+.about__content__container{
+  text-align: left;
+  position: absolute;
+  margin-left: 6em;
+  bottom: 0;
+  margin-bottom: 2em;
+}
+
+.about__content__container h5{
+  color: #373a40;
+
+}
+
+.about__content__container p{
+  color: #707070;
+  max-width: 30em;
+
+}
+
+.about-image{
+  width: 100%;
+}
+
+.about__button {
+  display: flex;
+  flex-direction: row;
+  max-width: 12em;
+  font-family: "cabin", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1em 1.5em;
+  border-radius: 2em;
+  gap: 1em;
+  cursor: pointer;
+  border: 0px;
+  margin-top: 2em;
+
+
+}
+
+.about__button:hover {
+  background-color: #44464b;
+}
