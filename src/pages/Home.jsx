@@ -5,6 +5,7 @@ import About from '../components/Home/about';
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import '../styles/home.css';
+import Counter from '../components/Home/Counter';
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
     <Hero />
     <Services />
     <About />
+    <Counter/>
 
    
   </div>

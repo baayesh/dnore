@@ -221,8 +221,9 @@
   text-align: left;
   position: absolute;
   margin-left: 6em;
-  bottom: 0;
-  margin-bottom: 2em;
+  
+ 
+ 
 }
 
 .about__content__container h5{
@@ -261,4 +262,48 @@
 
 .about__button:hover {
   background-color: #44464b;
+}
+
+/* counter */
+.counter-container {
+  padding: 4em 0em;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2em;
+}
+
+.counter-number {
+  display: flex;
+  font-family: "cabin", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0em auto;
+  color: #f2f2f2;
+  left: 0;
+}
+
+.counter-title {
+  font-family: "cabin", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 0em;
+  color: #373a40;
+  left: 0;
+}
+
+.counter__individual {
+  width: 18em;
+  background-color: #006600;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 2em; */
+  padding: 2em;
+  gap: 0.8em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.counter__individual h4 {
+  color: #f2f2f2;
+  letter-spacing: 0.2ch;
 }
