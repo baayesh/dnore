@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/header.css";
+import logo from '../assets/logo/Dnore.png'
 
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
     <header className="header-container">
       <div className="container">
         <div className="header-content">
-          {/* <img src={logo} alt="logo" className="logo" /> */}
+          <img src={logo} alt="logo" className="logo" /> 
           <nav className="nav">
             <div className="nav-list">
               <a href="/" className="nav-link">

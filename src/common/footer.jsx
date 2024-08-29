@@ -16,7 +16,7 @@ const Footer = () => {
           <p>About</p>
           <p>Video</p>
           <p>Contacts</p>
-className="logo-footer" />
+
         </div>
         <div className="footer-column">
           <h3>SERVICES</h3>
