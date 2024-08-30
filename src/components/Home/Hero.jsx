@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-container ">
         <div className="hero-row">
-          <div className="hero-text-col">
+          <div className="hero-text-col typewriter">
             <h1 className="hero-title">Dnore</h1>
             <p className="hero-text">All Services You Need, Under One Hood</p>
           </div>
