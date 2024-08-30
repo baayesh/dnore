@@ -5,6 +5,8 @@ import { IconContext } from "react-icons";
 import { LuPackageCheck } from "react-icons/lu";
 import { FaHouse } from "react-icons/fa6";
 import { CgMenuGridR } from "react-icons/cg";
+import { IoAirplaneSharp } from "react-icons/io5";
+import { PiShippingContainerFill } from "react-icons/pi";
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -19,7 +21,7 @@ const Services = () => {
       >
         <IconContext.Provider value={{ color: "white", size: "2em" }}>
           <div className="service-icon">
-            <FaBucket />
+          <IoAirplaneSharp />
           </div>
         </IconContext.Provider>
         <div className="service-title">
@@ -85,7 +87,7 @@ const Services = () => {
       className="individual-service-container">
         <IconContext.Provider value={{ color: "white", size: "2em" }}>
           <div className="service-icon">
-            <CgMenuGridR />
+          <PiShippingContainerFill />
           </div>
         </IconContext.Provider>
         <div className="service-title">
