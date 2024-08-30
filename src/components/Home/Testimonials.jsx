@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/home.css";
 import { HiArrowSmallLeft } from "react-icons/hi2";
 import { HiArrowSmallRight } from "react-icons/hi2";
-
+import { motion } from "framer-motion";
 
 const Testimonials = () => {
   return (
@@ -22,7 +22,13 @@ const Testimonials = () => {
         </div>
         <div className="testimonials-cards">
           {/* Card 1 */}
-          <div className="testimonials-card-3 column">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.2 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5,}}
+            viewport={{ once: true }}
+            className="testimonials-card-3 column"
+          >
             <div> </div>
             <div className="testimonials-card-3-content">
               <p className="paragraph">
@@ -39,9 +45,15 @@ const Testimonials = () => {
                 <p className="tag__2">Position</p>
               </div>
             </div>
-          </div>
+          </motion.div>
           {/* Card 2 */}
-          <div className="testimonials-card-3 column">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.2 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="testimonials-card-3 column"
+          >
             <div> </div>
             <div className="testimonials-card-3-content">
               <p className="paragraph">
@@ -58,8 +70,14 @@ const Testimonials = () => {
                 <p className="tag__2">Position</p>
               </div>
             </div>
-          </div>
-          <div className="testimonials-card-3 column">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.2 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="testimonials-card-3 column"
+          >
             <div> </div>
             <div className="testimonials-card-3-content">
               <p className="paragraph">
@@ -76,7 +94,7 @@ const Testimonials = () => {
                 <p className="tag__2">Position</p>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
