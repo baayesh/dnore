@@ -61,7 +61,7 @@ const Footer = () => {
 
       <div className="footer-lastline">
         <p>
-          ©2024 by Cinch Motors Limited. All Rights Reserved. Powered by: Techme
+          ©2024 by Ayesh Bamunuarachchi <span href="https://www.linkedin.com/in/ayesh-bamunuarachchi-ab5355214/">ayeshb</span>
         </p>
       </div>
     </div>

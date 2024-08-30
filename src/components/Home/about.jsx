@@ -18,7 +18,7 @@ const about = () => {
             className="about__content__container column container"
           >
             <h5 className="heading">
-              Chris Wicks Based In Los Angeles Since 2009.
+              Lorem Ipsum Sit Amet 
             </h5>
             <p className="paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
