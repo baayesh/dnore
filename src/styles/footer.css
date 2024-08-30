@@ -46,6 +46,11 @@
   color: #f2f2f2;
 }
 
+.footer-lastline span{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .social-media-icon-container {
   background-color: #202020;
   width: 3em;
