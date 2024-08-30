@@ -28,8 +28,8 @@ const USP = () => {
     <div className="usp-main">
       <div className="usp-cta">
         <h2>
-          Coca Cola <br />
-          Drink
+         Lorem Ipsum <br />
+          Sit amet
         </h2>
 
         <p>
