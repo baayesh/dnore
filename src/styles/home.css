@@ -122,20 +122,20 @@
   text-align: left;
   margin: 2em auto;
   margin-top: 4em;
-} 
-
-.hero-container {
-   padding-left: 3em; 
-   margin: 0 auto; 
 }
 
-.hero-row{
+.hero-container {
+  padding-left: 3em;
+  margin: 0 auto;
+}
+
+.hero-row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.hero-text-col{
+.hero-text-col {
   display: flex;
   flex-direction: column;
 }
@@ -151,7 +151,6 @@
   top: 2em;
   left: 2em;
   color: white;
-
 }
 
 .hero-text {
@@ -169,26 +168,33 @@
 
 /* Hero typing animation */
 .typewriter p {
-  overflow: hidden; 
-  border-right: .15em solid white; 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: .15em;
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  overflow: hidden;
+  border-right: 0.15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 35% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 35%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
 }
 
 .services-container {
@@ -232,7 +238,6 @@
   font-size: 1.2rem;
 }
 
-
 .service-description p {
   margin-top: 0.3em;
   font-family: "cabin", sans-serif;
@@ -248,26 +253,29 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  position: relative;
 }
 
-.about__content__container{
+.about__content__container {
   text-align: left;
   position: absolute;
   margin-left: 6em;
+  margin-bottom: 2em;
+  display: flex;
+  bottom: 0;
+
 }
 
-.about__content__container h5{
+.about__content__container h5 {
   color: #373a40;
-
 }
 
-.about__content__container p{
+.about__content__container p {
   color: #707070;
   max-width: 30em;
-
 }
 
-.about-image{
+.about-image {
   width: 100%;
 }
 
@@ -286,8 +294,6 @@
   cursor: pointer;
   border: 0px;
   margin-top: 2em;
-
-
 }
 
 .about__button:hover {
@@ -426,14 +432,13 @@
   margin-left: 25em;
 }
 
-.last__image{
-  width:20%;
-  z-index:0;
+.last__image {
+  width: 20%;
+  z-index: 0;
   margin-top: 2em;
-
 }
 
-.z__1{
+.z__1 {
   z-index: 1;
 }
 
@@ -605,6 +610,3 @@
     header - 10
 
 */
-
-
-
